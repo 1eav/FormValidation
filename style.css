@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SIcontainer {
+    width: 400px;
+    height: 315px;
+    background: #4008ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.SIcontainer2 {
+    width: 200px;
+    height: 315px;
+    background: #3007aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.SItext1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+
+.SItext2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+}
+
+.textS1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: yellow; 
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.textS1:hover {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+}
+
+input[type=email] {
+    border-color: #4008ea;
+    border-radius: 7px;
+}
+
+input[type=password] {
+    border-color: #4008ea;
+    border-radius: 7px;
+}
+
+.SIspanText {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: -20px;
+    font-size: 17px;
+    color: #ff0000;
+}
+
+.icon {
+    width: 40%;
+    height: 40%;
+    margin-top: -12%;
+}

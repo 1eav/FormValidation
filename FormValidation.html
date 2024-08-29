@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="SIcontainer">
+        <h2 class="SItext1"><b>ВХОД ПОЛЬЗОВАТЕЛЯ</b></h2><br>
+            <form id="SIForm">
+                <label for="SIname" class="SItext2"><b>Адрес электронной почты:</b></label><br>
+                <input type="email"id="SIname" name="SIname" style="width: 300px; height: 30px;"><br><br>
+                <span class="SIspanText" id="spanName"></span>
+                <label for="SIpassword" class="SItext2"><b>Пароль:</b></label><br>
+                <input type="password" id="SIpassword" name="SIpassword" style="width: 300px; height: 30px;"><br><br>
+                <span class="SIspanText" id="spanPassword"></span>
+                <button class="textS1" type="submit" id="sub1" name="sub1">Войти</button>
+            </form>
+    </div>
+    <div class="SIcontainer2">
+        <img src="svg_upload.svg" alt="icon" class="icon">
+        <input type="file" id="uploadFileSI" hidden="hidden">
+        <button class="textS1" id="uploadSI" style="height: 100px;">Загрузить файл</button>
+        <span class="SItext2" id="spanFileSI">Файл отсутствует</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
